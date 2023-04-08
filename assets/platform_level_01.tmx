@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2021.01.13" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#a6e7ff" nextlayerid="11" nextobjectid="6">
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="6" nextobjectid="9">
  <tileset firstgid="1" source="arcade_platformer.tsx"/>
- <layer id="1" name="ground" width="25" height="20">
+ <layer id="1" name="ziemia" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhQN8Q4AdaJ4iE+ahsPch8TiBmRsIcQDY2e5DdQQob3XyYXSB70M2BydGSBgCAVwIl
+   eJxjYBgFo2AUjIJRQC6QAWJZIJYbaIcMEqAIxMpoWIHK5ksDsQgalqLAHmE0jG42OkZXTwwmZCY1MABiZAXC
   </data>
  </layer>
- <layer id="2" name="background" width="25" height="20">
+ <layer id="2" name="drabiny" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhgD0EpmMXprtoI5KNuNyESxxJK5xZD2cNHwYAPOkCxg==
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
   </data>
  </layer>
- <layer id="3" name="goal" width="25" height="20">
+ <layer id="4" name="cele" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhMLhCIIsOzsmkgx30tAIA3KgA1A==
+   eJxjYBgFo2AUjIJRMAoGDzCkgx0GdLCD3gAAa0gAYg==
   </data>
  </layer>
- <objectgroup id="8" name="coins">
-  <object id="2" gid="56" x="1540" y="2306" width="128" height="128">
+ <objectgroup id="5" name="monety">
+  <object id="5" gid="41" x="698.327" y="1943.22" width="128" height="128">
    <properties>
-    <property name="point_value" type="int" value="20"/>
+    <property name="wartość" type="int" value="10"/>
    </properties>
   </object>
-  <object id="3" gid="56" x="2178" y="1788" width="128" height="128">
+  <object id="6" gid="41" x="1419.29" y="2043.69" width="128" height="128">
    <properties>
-    <property name="point_value" type="int" value="10"/>
+    <property name="wartość" type="int" value="10"/>
    </properties>
   </object>
-  <object id="4" gid="55" x="514" y="2308" width="128" height="128">
+  <object id="7" gid="42" x="1933.41" y="2043.69" width="128" height="128">
    <properties>
-    <property name="point_value" type="int" value="10"/>
-   </properties>
-  </object>
-  <object id="5" gid="55" x="1024" y="2178" width="128" height="128">
-   <properties>
-    <property name="point_value" type="int" value="10"/>
+    <property name="wartość" type="int" value="20"/>
    </properties>
   </object>
  </objectgroup>
+ <layer id="3" name="tło" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFKALRLbZsBcQRowg9LEutcWTS26n02o4ahBCABzCgIS
+  </data>
+ </layer>
 </map>
