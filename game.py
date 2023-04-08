@@ -20,7 +20,7 @@ ASSETS_PATH = pathlib.Path(__file__).resolve().parent.parent / "assets"
 
 class Platformer(arcade.Window):
     def __init__(self) -> None:
-        super().__innit__(SCREEN_WIDTH, SCREEN_HIEGHT, SCREEN_TITLE)
+        super().__init__(SCREEN_WIDTH, SCREEN_HIEGHT, SCREEN_TITLE)
 	
 	 # These lists will hold different sets of sprites
         self.coins = None
